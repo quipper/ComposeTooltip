@@ -5,7 +5,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.quipper.compose-tooltip'
             artifactId = 'composetooltip'
-            version = "0.2.3"
+            version = "0.2.4"
 
             afterEvaluate {
                 from components.release
